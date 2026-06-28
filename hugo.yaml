@@ -1,0 +1,28 @@
+baseURL: 'https://kshatriya-history.github.io/'
+languageCode: 'en-us'
+title: 'Kshatriya History Project'
+theme: 'kopi'
+
+params:
+  subtitle: 'History, culture, stories, and references'
+  author:
+    name: 'Kshatriya History Project Team'
+    bio: 'Writing about Indian history and heritage.'
+    link: '/about/'
+    role: 'Author'
+
+menus:
+  main:
+    - name: 'Home'
+      pageRef: '/'
+      weight: 10
+    - name: 'Posts'
+      pageRef: '/posts'
+      weight: 20
+    - name: 'About'
+      pageRef: '/about'
+      weight: 30
+
+caches:
+  images:
+    dir: :cacheDir/images
